@@ -4,65 +4,133 @@
       <h1>Good evening</h1>
       <div class="like-playlist">
         <div class="card">
-          <img src="../assets/covers/cover.jpg" width="90" alt="cover" loading="lazy" />
+          <img
+            src="../assets/covers/cover.jpg"
+            width="90"
+            alt="cover"
+            loading="lazy"
+          />
           <p>Deep focus</p>
           <img
             class="controlBtn playlistActiveLike"
             src="../assets/icons/play.png"
-            width="80"
-            alt="cover" loading="lazy"
+            width="70"
+            alt="cover"
+            loading="lazy"
           />
         </div>
         <div class="card">
-          <img src="../assets/covers/cover.jpg" width="90" alt="cover" loading="lazy" />
+          <img
+            src="../assets/covers/cover.jpg"
+            width="90"
+            alt="cover"
+            loading="lazy"
+          />
           <p>Deep focus</p>
           <img
             class="controlBtn"
             src="../assets/icons/play.png"
-            width="80"
-            alt="cover" loading="lazy"
+            width="70"
+            alt="cover"
+            loading="lazy"
           />
         </div>
         <div class="card">
-          <img src="../assets/covers/cover.jpg" width="90" alt="cover" loading="lazy" />
+          <img
+            src="../assets/covers/cover.jpg"
+            width="90"
+            alt="cover"
+            loading="lazy"
+          />
           <p>Deep focus</p>
           <img
             class="controlBtn"
             src="../assets/icons/play.png"
-            width="80"
-            alt="cover" loading="lazy"
+            width="70"
+            alt="cover"
+            loading="lazy"
+          />
+        </div>
+        <div class="card">
+          <img
+            src="../assets/covers/cover.jpg"
+            width="90"
+            alt="cover"
+            loading="lazy"
+          />
+          <p>Deep focus</p>
+          <img
+            class="controlBtn"
+            src="../assets/icons/play.png"
+            width="70"
+            alt="cover"
+            loading="lazy"
           />
         </div>
       </div>
       <div class="like-playlist">
         <div class="card">
-          <img src="../assets/covers/cover.jpg" width="90" alt="cover" loading="lazy" />
+          <img
+            src="../assets/covers/cover.jpg"
+            width="90"
+            alt="cover"
+            loading="lazy"
+          />
           <p>Deep focus</p>
           <img
             class="controlBtn"
             src="../assets/icons/play.png"
-            width="80"
-            alt="cover" loading="lazy"
+            width="70"
+            alt="cover"
+            loading="lazy"
           />
         </div>
         <div class="card">
-          <img src="../assets/covers/cover.jpg" width="90" alt="cover" loading="lazy" />
+          <img
+            src="../assets/covers/cover.jpg"
+            width="90"
+            alt="cover"
+            loading="lazy"
+          />
           <p>Deep focus</p>
           <img
             class="controlBtn"
             src="../assets/icons/play.png"
-            width="80"
-            alt="cover" loading="lazy"
+            width="70"
+            alt="cover"
+            loading="lazy"
           />
         </div>
         <div class="card">
-          <img src="../assets/covers/cover.jpg" width="90" alt="cover" loading="lazy" />
+          <img
+            src="../assets/covers/cover.jpg"
+            width="90"
+            alt="cover"
+            loading="lazy"
+          />
           <p>Deep focus</p>
           <img
             class="controlBtn"
             src="../assets/icons/play.png"
-            width="80"
-            alt="cover" loading="lazy"
+            width="70"
+            alt="cover"
+            loading="lazy"
+          />
+        </div>
+        <div class="card">
+          <img
+            src="../assets/covers/cover.jpg"
+            width="90"
+            alt="cover"
+            loading="lazy"
+          />
+          <p>Deep focus</p>
+          <img
+            class="controlBtn"
+            src="../assets/icons/play.png"
+            width="70"
+            alt="cover"
+            loading="lazy"
           />
         </div>
       </div>
@@ -71,45 +139,86 @@
       <div class="titlePlaylist"><h1>Focus Playlist</h1></div>
       <div class="seePlaylist"><h5>SEE ALL</h5></div>
       <div class="card-playlist">
-        <img src="../assets/covers/cover.jpg" width="200" alt="cover" loading="lazy" />
+        <img
+          src="../assets/covers/cover.jpg"
+          width="200"
+          alt="cover"
+          loading="lazy"
+        />
         <img
           class="controlBtn playlistActive"
           src="../assets/icons/play.png"
           width="50"
-          alt="cover" loading="lazy"
+          alt="cover"
+          loading="lazy"
         />
         <h3>Deep focus</h3>
         <p>Music1, Music2, Music3, Music4, Music5, ...</p>
       </div>
       <div class="card-playlist">
-        <img src="../assets/covers/cover.jpg" width="200" alt="cover" loading="lazy" />
+        <img
+          src="../assets/covers/cover.jpg"
+          width="200"
+          alt="cover"
+          loading="lazy"
+        />
         <img
           class="controlBtn"
           src="../assets/icons/play.png"
           width="50"
-          alt="cover" loading="lazy"
+          alt="cover"
+          loading="lazy"
         />
         <h3>Deep focus</h3>
         <p>Music1, Music2, Music3, Music4, Music5, ...</p>
       </div>
       <div class="card-playlist">
-        <img src="../assets/covers/cover.jpg" width="200" alt="cover" loading="lazy" />
+        <img
+          src="../assets/covers/cover.jpg"
+          width="200"
+          alt="cover"
+          loading="lazy"
+        />
         <img
           class="controlBtn"
           src="../assets/icons/play.png"
           width="50"
-          alt="cover" loading="lazy"
+          alt="cover"
+          loading="lazy"
         />
         <h3>Deep focus</h3>
         <p>Music1, Music2, Music3, Music4, Music5, ...</p>
       </div>
       <div class="card-playlist">
-        <img src="../assets/covers/cover.jpg" width="200" alt="cover" loading="lazy" />
+        <img
+          src="../assets/covers/cover.jpg"
+          width="200"
+          alt="cover"
+          loading="lazy"
+        />
         <img
           class="controlBtn"
           src="../assets/icons/play.png"
           width="50"
-          alt="cover" loading="lazy"
+          alt="cover"
+          loading="lazy"
+        />
+        <h3>Deep focus</h3>
+        <p>Music1, Music2, Music3, Music4, Music5, ...</p>
+      </div>
+      <div class="card-playlist">
+        <img
+          src="../assets/covers/cover.jpg"
+          width="200"
+          alt="cover"
+          loading="lazy"
+        />
+        <img
+          class="controlBtn"
+          src="../assets/icons/play.png"
+          width="50"
+          alt="cover"
+          loading="lazy"
         />
         <h3>Deep focus</h3>
         <p>Music1, Music2, Music3, Music4, Music5, ...</p>
@@ -119,45 +228,86 @@
       <div class="titlePlaylist"><h1>Focus Playlist</h1></div>
       <div class="seePlaylist"><h5>SEE ALL</h5></div>
       <div class="card-playlist">
-        <img src="../assets/covers/cover.jpg" width="200" alt="cover" loading="lazy" />
+        <img
+          src="../assets/covers/cover.jpg"
+          width="200"
+          alt="cover"
+          loading="lazy"
+        />
         <img
           class="controlBtn playlistActive"
           src="../assets/icons/play.png"
           width="50"
-          alt="cover" loading="lazy"
+          alt="cover"
+          loading="lazy"
         />
         <h3>Deep focus</h3>
         <p>Music1, Music2, Music3, Music4, Music5, ...</p>
       </div>
       <div class="card-playlist">
-        <img src="../assets/covers/cover.jpg" width="200" alt="cover" loading="lazy" />
+        <img
+          src="../assets/covers/cover.jpg"
+          width="200"
+          alt="cover"
+          loading="lazy"
+        />
         <img
           class="controlBtn"
           src="../assets/icons/play.png"
           width="50"
-          alt="cover" loading="lazy"
+          alt="cover"
+          loading="lazy"
         />
         <h3>Deep focus</h3>
         <p>Music1, Music2, Music3, Music4, Music5, ...</p>
       </div>
       <div class="card-playlist">
-        <img src="../assets/covers/cover.jpg" width="200" alt="cover" loading="lazy" />
+        <img
+          src="../assets/covers/cover.jpg"
+          width="200"
+          alt="cover"
+          loading="lazy"
+        />
         <img
           class="controlBtn"
           src="../assets/icons/play.png"
           width="50"
-          alt="cover" loading="lazy"
+          alt="cover"
+          loading="lazy"
         />
         <h3>Deep focus</h3>
         <p>Music1, Music2, Music3, Music4, Music5, ...</p>
       </div>
       <div class="card-playlist">
-        <img src="../assets/covers/cover.jpg" width="200" alt="cover" loading="lazy" />
+        <img
+          src="../assets/covers/cover.jpg"
+          width="200"
+          alt="cover"
+          loading="lazy"
+        />
         <img
           class="controlBtn"
           src="../assets/icons/play.png"
           width="50"
-          alt="cover" loading="lazy"
+          alt="cover"
+          loading="lazy"
+        />
+        <h3>Deep focus</h3>
+        <p>Music1, Music2, Music3, Music4, Music5, ...</p>
+      </div>
+      <div class="card-playlist">
+        <img
+          src="../assets/covers/cover.jpg"
+          width="200"
+          alt="cover"
+          loading="lazy"
+        />
+        <img
+          class="controlBtn"
+          src="../assets/icons/play.png"
+          width="50"
+          alt="cover"
+          loading="lazy"
         />
         <h3>Deep focus</h3>
         <p>Music1, Music2, Music3, Music4, Music5, ...</p>
@@ -167,93 +317,86 @@
       <div class="titlePlaylist"><h1>Focus Playlist</h1></div>
       <div class="seePlaylist"><h5>SEE ALL</h5></div>
       <div class="card-playlist">
-        <img src="../assets/covers/cover.jpg" width="200" alt="cover" loading="lazy" />
+        <img
+          src="../assets/covers/cover.jpg"
+          width="200"
+          alt="cover"
+          loading="lazy"
+        />
         <img
           class="controlBtn playlistActive"
           src="../assets/icons/play.png"
           width="50"
-          alt="cover" loading="lazy"
+          alt="cover"
+          loading="lazy"
         />
         <h3>Deep focus</h3>
         <p>Music1, Music2, Music3, Music4, Music5, ...</p>
       </div>
       <div class="card-playlist">
-        <img src="../assets/covers/cover.jpg" width="200" alt="cover" loading="lazy" />
+        <img
+          src="../assets/covers/cover.jpg"
+          width="200"
+          alt="cover"
+          loading="lazy"
+        />
         <img
           class="controlBtn"
           src="../assets/icons/play.png"
           width="50"
-          alt="cover" loading="lazy"
+          alt="cover"
+          loading="lazy"
         />
         <h3>Deep focus</h3>
         <p>Music1, Music2, Music3, Music4, Music5, ...</p>
       </div>
       <div class="card-playlist">
-        <img src="../assets/covers/cover.jpg" width="200" alt="cover" loading="lazy" />
+        <img
+          src="../assets/covers/cover.jpg"
+          width="200"
+          alt="cover"
+          loading="lazy"
+        />
         <img
           class="controlBtn"
           src="../assets/icons/play.png"
           width="50"
-          alt="cover" loading="lazy"
+          alt="cover"
+          loading="lazy"
         />
         <h3>Deep focus</h3>
         <p>Music1, Music2, Music3, Music4, Music5, ...</p>
       </div>
       <div class="card-playlist">
-        <img src="../assets/covers/cover.jpg" width="200" alt="cover" loading="lazy" />
+        <img
+          src="../assets/covers/cover.jpg"
+          width="200"
+          alt="cover"
+          loading="lazy"
+        />
         <img
           class="controlBtn"
           src="../assets/icons/play.png"
           width="50"
-          alt="cover" loading="lazy"
+          alt="cover"
+          loading="lazy"
         />
         <h3>Deep focus</h3>
         <p>Music1, Music2, Music3, Music4, Music5, ...</p>
       </div>
-    </section>
-    <section class="home-playlists">
-      <div class="titlePlaylist"><h1>Focus Playlist</h1></div>
-      <div class="seePlaylist"><h5>SEE ALL</h5></div>
       <div class="card-playlist">
-        <img src="../assets/covers/cover.jpg" width="200" alt="cover" loading="lazy" />
         <img
-          class="controlBtn playlistActive"
-          src="../assets/icons/play.png"
-          width="50"
-          alt="cover" loading="lazy"
+          src="../assets/covers/cover.jpg"
+          width="200"
+          alt="cover"
+          loading="lazy"
         />
-        <h3>Deep focus</h3>
-        <p>Music1, Music2, Music3, Music4, Music5, ...</p>
-      </div>
-      <div class="card-playlist">
-        <img src="../assets/covers/cover.jpg" width="200" alt="cover" loading="lazy" />
         <img
           class="controlBtn"
           src="../assets/icons/play.png"
           width="50"
-          alt="cover" loading="lazy"
-        />
-        <h3>Deep focus</h3>
-        <p>Music1, Music2, Music3, Music4, Music5, ...</p>
-      </div>
-      <div class="card-playlist">
-        <img src="../assets/covers/cover.jpg" width="200" alt="cover" loading="lazy" />
-        <img
-          class="controlBtn"
-          src="../assets/icons/play.png"
-          width="50"
-          alt="cover" loading="lazy"
-        />
-        <h3>Deep focus</h3>
-        <p>Music1, Music2, Music3, Music4, Music5, ...</p>
-      </div>
-      <div class="card-playlist">
-        <img src="../assets/covers/cover.jpg" width="200" alt="cover" loading="lazy" />
-        <img
-          class="controlBtn"
-          src="../assets/icons/play.png"
-          width="50"
-          alt="cover" loading="lazy"
+          alt="cover"
+          loading="lazy"
         />
         <h3>Deep focus</h3>
         <p>Music1, Music2, Music3, Music4, Music5, ...</p>
@@ -276,6 +419,7 @@ export default {};
   color: #fff;
   font-size: 2rem;
 }
+
 #home-page #home-top-section .like-playlist {
   display: flex;
   flex-wrap: wrap;
@@ -283,6 +427,8 @@ export default {};
 }
 
 #home-page #home-top-section .card {
+  width: 290px;
+  height: 80px;
   margin-top: 2rem;
   display: flex;
   align-items: center;
@@ -300,12 +446,12 @@ export default {};
 
 #home-page #home-top-section .card p {
   padding-left: 1.5rem;
-  font-size: 1.1rem;
-  padding-right: 4.5rem;
+  font-size: 1rem;
 }
 
 #home-page #home-top-section .card .controlBtn {
-  padding-right: 1.5rem;
+  width: 3.6rem;
+  padding-right: 0.5rem;
   margin-top: 0.3rem;
   transition: all 0.2s;
   opacity: 0;

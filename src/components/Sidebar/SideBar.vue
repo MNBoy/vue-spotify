@@ -84,16 +84,15 @@ export default {
     isActive() {
       if (this.currentLinkPage === "/") {
         return "H";
-      } else if (this.currentLinkPage=== "/search") {
+      } else if (this.currentLinkPage === "/search") {
         return "S";
-      } else if (this.currentLinkPage=== "/collection/playlists") {
+      } else if (this.currentLinkPage.includes('/collection')) {
         return "Y";
-      } else if (this.currentLinkPage=== "/create-playlist") {
+      } else if (this.currentLinkPage === "/create-playlist") {
         return "C";
-      } else if (this.currentLinkPage=== "/liked-songs") {
+      } else if (this.currentLinkPage === "/liked-songs") {
         return "L";
       }
-
       return false;
     },
     showLabel() {

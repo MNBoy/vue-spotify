@@ -1,6 +1,7 @@
 <template>
   <teleport to="body">
     <profile-detail></profile-detail>
+    <the-arrows></the-arrows>
   </teleport>
   <div id="page">
     <side-bar></side-bar>
@@ -17,10 +18,12 @@
 <script>
 import ProfileDetail from "./components/Profile/ProfileDetail.vue";
 import SideBar from "./components/Sidebar/SideBar.vue";
+import TheArrows from './components/UI/TheArrows.vue';
 export default {
   components: {
     SideBar,
     ProfileDetail,
+    TheArrows,
   },
 };
 </script>

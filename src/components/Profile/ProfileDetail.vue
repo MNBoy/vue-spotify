@@ -1,6 +1,6 @@
 <template>
   <div id="profile-detail" @click="toggleDetail">
-    <img src="../../assets/icons/user.png" width="20" alt="user" />
+    <img src="../../assets/icons/user.png" width="19" alt="user" />
     <p>Moein</p>
     <img
       v-if="!isDetail"
@@ -37,6 +37,9 @@ export default {
       this.isDetail = !this.isDetail;
     },
   },
+  created() {
+    console.log('Created!');
+  }
 };
 </script>
 
@@ -50,7 +53,7 @@ export default {
   top: 1rem;
   background: #000;
   color: #fff;
-  padding: 0.5rem 1rem;
+  padding: 0.2rem 0.6rem;
   border-radius: 2rem;
   transition: all 0.1s;
   cursor: pointer;
@@ -86,7 +89,7 @@ export default {
   text-align: center;
   position: fixed;
   right: 1.3rem;
-  top: 4rem;
+  top: 3.3rem;
   background: #0e0e0e;
   color: #fff;
   padding: 0.5rem 0.5rem;
