@@ -1,30 +1,74 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <teleport to="body">
+    <profile-detail></profile-detail>
+  </teleport>
+  <div id="page">
+    <side-bar></side-bar>
+    <section id="main">
+      <router-view v-slot="{ Component }">
+        <transition name="router" mode="out-in">
+          <component :is="Component" />
+        </transition>
+      </router-view>
+    </section>
   </div>
-  <router-view/>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+<script>
+import ProfileDetail from "./components/Profile/ProfileDetail.vue";
+import SideBar from "./components/Sidebar/SideBar.vue";
+export default {
+  components: {
+    SideBar,
+    ProfileDetail,
+  },
+};
+</script>
+
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-#nav {
-  padding: 30px;
+body {
+  /* background: #1b1b1b; */
+  background: linear-gradient(to top, #1b1b1b 83%, #2c2c2c 100%);
+}
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
+#page {
+  width: 100%;
+  display: flex;
+}
 
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+/* Main Section  */
+
+#main {
+  width: 100%;
+}
+
+/* Router Transition  */
+
+.router-enter-from,
+.router-leave-to {
+  opacity: 0;
+}
+
+.router-enter-active {
+  transition: all .3s ease-out;
+}
+
+.router-leave-active {
+  transition: all .3s ease-in;
+}
+
+.router-enter-to,
+.router-leave-from {
+  opacity: 1;
 }
 </style>
