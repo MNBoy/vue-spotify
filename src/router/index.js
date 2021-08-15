@@ -2,6 +2,8 @@ import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/TheHome.vue";
 import Search from "../views/TheSearch.vue";
 import Playlist from "../views/ThePlaylist.vue";
+import CreatePlaylist from "../views/CreatePlaylist.vue";
+import LikedSongs from "../views/LikedSongs.vue";
 
 const routes = [
   {
@@ -31,8 +33,18 @@ const routes = [
   },
   {
     path: "/collection/albums",
-    name: "Albums",
+    name: "Playlist",
     component: Playlist,
+  },
+  {
+    path: "/create-playlist",
+    name: "CreatePlaylist",
+    component: CreatePlaylist,
+  },
+  {
+    path: "/liked-songs",
+    name: "LikedSongs",
+    component: LikedSongs,
   },
 ];
 

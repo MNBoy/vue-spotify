@@ -410,9 +410,22 @@ export default {};
 </script>
 
 <style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
 #home-page {
   padding: 3rem;
   margin-top: 2rem;
+  font-weight: 300;
+}
+
+#home-page h3 {
+  font-weight: 400;
+}
+
+#home-page h1 {
+  font-weight: 600;
 }
 
 #home-page #home-top-section {

@@ -37,9 +37,6 @@ export default {
       this.isDetail = !this.isDetail;
     },
   },
-  created() {
-    console.log('Created!');
-  }
 };
 </script>
 

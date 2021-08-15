@@ -13,17 +13,22 @@
       </router-view>
     </section>
   </div>
+  <teleport to="body">
+    <the-player></the-player>
+  </teleport>
 </template>
 
 <script>
 import ProfileDetail from "./components/Profile/ProfileDetail.vue";
 import SideBar from "./components/Sidebar/SideBar.vue";
-import TheArrows from './components/UI/TheArrows.vue';
+import TheArrows from "./components/UI/TheArrows.vue";
+import ThePlayer from './components/UI/ThePlayer.vue';
 export default {
   components: {
     SideBar,
     ProfileDetail,
     TheArrows,
+    ThePlayer,
   },
 };
 </script>
@@ -40,7 +45,6 @@ export default {
 }
 
 body {
-  /* background: #1b1b1b; */
   background: linear-gradient(to top, #1b1b1b 83%, #2c2c2c 100%);
 }
 
@@ -63,11 +67,11 @@ body {
 }
 
 .router-enter-active {
-  transition: all .3s ease-out;
+  transition: all 0.3s ease-out;
 }
 
 .router-leave-active {
-  transition: all .3s ease-in;
+  transition: all 0.3s ease-in;
 }
 
 .router-enter-to,

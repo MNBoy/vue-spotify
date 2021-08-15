@@ -6,6 +6,7 @@
           src="../../assets/icons/left-arrow.png"
           width="15"
           alt="leftArrow"
+          draggable="false"
         />
         <i class="fa fa-arrow-circle-left" aria-hidden="true"></i>
       </div>
@@ -14,6 +15,7 @@
           src="../../assets/icons/right-arrow.png"
           width="15"
           alt="RightArrow"
+          draggable="false"
         />
       </div>
     </div>
