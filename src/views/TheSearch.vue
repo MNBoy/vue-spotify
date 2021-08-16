@@ -125,6 +125,7 @@ export default {
 #search-page {
   padding: 1rem 3rem;
   position: relative;
+  margin-bottom: 7rem;
 }
 
 .cover-top {

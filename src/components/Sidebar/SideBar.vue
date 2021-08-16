@@ -72,13 +72,20 @@
       <span class="labelSidebar">Liked Songs</span>
     </div>
     <div class="divider"></div>
+    <div class="playlist" v-for="playlist in playlists" :key="playlist.id">
+      <router-link class="linkPlaylist" :to="'/playlist/' + playlist.id"
+        ><span> {{ playlist.name }} </span></router-link
+      >
+    </div>
   </section>
 </template>
 
 <script>
 export default {
   data() {
-    return {};
+    return {
+      playlists: [],
+    };
   },
   computed: {
     isActive() {
@@ -86,7 +93,7 @@ export default {
         return "H";
       } else if (this.currentLinkPage === "/search") {
         return "S";
-      } else if (this.currentLinkPage.includes('/collection')) {
+      } else if (this.currentLinkPage.includes("/collection")) {
         return "Y";
       } else if (this.currentLinkPage === "/create-playlist") {
         return "C";
@@ -105,6 +112,17 @@ export default {
   methods: {
     openLink(link) {
       this.$router.push("/" + link);
+    },
+    getPlaylist() {
+      this.playlists = this.$store.getters["playlist/getPlaylists"];
+    },
+  },
+  created() {
+    this.getPlaylist();
+  },
+  watch: {
+    $route() {
+      this.getPlaylist();
     },
   },
 };
@@ -187,6 +205,23 @@ export default {
   height: 0.12rem;
   border-radius: 0.3rem;
   background: #282828;
+  margin-bottom: 1rem;
+}
+
+#side-bar .playlist {
+  width: 80%;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-bottom: 0.6rem;
+}
+
+#side-bar .playlist .linkPlaylist {
+  text-decoration: none;
+  color: #c9c9c9;
+}
+
+#side-bar .playlist:hover {
+  color: #fff;
 }
 
 @media only screen and (max-width: 656px) {

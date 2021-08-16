@@ -12,7 +12,7 @@ export default {
   async addPlayList(context) {
     const playlistsCount = await context.getters.getPlaylists.length;
     const playlist = {
-      id: makeid(10),
+      id: makeid(25),
       name: "My Playlist #" + (+playlistsCount + 1),
       profile: "",
       songs: [],
@@ -23,5 +23,14 @@ export default {
     });
 
     return playlist;
+  },
+  async deletePlayList(context, payload) {
+    const playlists = await context.getters.getPlaylists;
+    const id = payload.id;
+    const playlist = playlists.filter(playlist => playlist.id !== id);
+
+    context.commit("setPlaylists", {
+      playlists: playlist,
+    });
   },
 };

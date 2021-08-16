@@ -12,7 +12,7 @@
           />
           <p>Deep focus</p>
           <img
-            class="controlBtn playlistActiveLike"
+            class="controlBtnLike"
             src="../assets/icons/play.png"
             width="70"
             alt="cover"
@@ -146,96 +146,7 @@
           loading="lazy"
         />
         <img
-          class="controlBtn playlistActive"
-          src="../assets/icons/play.png"
-          width="50"
-          alt="cover"
-          loading="lazy"
-        />
-        <h3>Deep focus</h3>
-        <p>Music1, Music2, Music3, Music4, Music5, ...</p>
-      </div>
-      <div class="card-playlist">
-        <img
-          src="../assets/covers/cover.jpg"
-          width="200"
-          alt="cover"
-          loading="lazy"
-        />
-        <img
           class="controlBtn"
-          src="../assets/icons/play.png"
-          width="50"
-          alt="cover"
-          loading="lazy"
-        />
-        <h3>Deep focus</h3>
-        <p>Music1, Music2, Music3, Music4, Music5, ...</p>
-      </div>
-      <div class="card-playlist">
-        <img
-          src="../assets/covers/cover.jpg"
-          width="200"
-          alt="cover"
-          loading="lazy"
-        />
-        <img
-          class="controlBtn"
-          src="../assets/icons/play.png"
-          width="50"
-          alt="cover"
-          loading="lazy"
-        />
-        <h3>Deep focus</h3>
-        <p>Music1, Music2, Music3, Music4, Music5, ...</p>
-      </div>
-      <div class="card-playlist">
-        <img
-          src="../assets/covers/cover.jpg"
-          width="200"
-          alt="cover"
-          loading="lazy"
-        />
-        <img
-          class="controlBtn"
-          src="../assets/icons/play.png"
-          width="50"
-          alt="cover"
-          loading="lazy"
-        />
-        <h3>Deep focus</h3>
-        <p>Music1, Music2, Music3, Music4, Music5, ...</p>
-      </div>
-      <div class="card-playlist">
-        <img
-          src="../assets/covers/cover.jpg"
-          width="200"
-          alt="cover"
-          loading="lazy"
-        />
-        <img
-          class="controlBtn"
-          src="../assets/icons/play.png"
-          width="50"
-          alt="cover"
-          loading="lazy"
-        />
-        <h3>Deep focus</h3>
-        <p>Music1, Music2, Music3, Music4, Music5, ...</p>
-      </div>
-    </section>
-    <section class="home-playlists">
-      <div class="titlePlaylist"><h1>Focus Playlist</h1></div>
-      <div class="seePlaylist"><h5>SEE ALL</h5></div>
-      <div class="card-playlist">
-        <img
-          src="../assets/covers/cover.jpg"
-          width="200"
-          alt="cover"
-          loading="lazy"
-        />
-        <img
-          class="controlBtn playlistActive"
           src="../assets/icons/play.png"
           width="50"
           alt="cover"
@@ -324,7 +235,96 @@
           loading="lazy"
         />
         <img
-          class="controlBtn playlistActive"
+          class="controlBtn"
+          src="../assets/icons/play.png"
+          width="50"
+          alt="cover"
+          loading="lazy"
+        />
+        <h3>Deep focus</h3>
+        <p>Music1, Music2, Music3, Music4, Music5, ...</p>
+      </div>
+      <div class="card-playlist">
+        <img
+          src="../assets/covers/cover.jpg"
+          width="200"
+          alt="cover"
+          loading="lazy"
+        />
+        <img
+          class="controlBtn"
+          src="../assets/icons/play.png"
+          width="50"
+          alt="cover"
+          loading="lazy"
+        />
+        <h3>Deep focus</h3>
+        <p>Music1, Music2, Music3, Music4, Music5, ...</p>
+      </div>
+      <div class="card-playlist">
+        <img
+          src="../assets/covers/cover.jpg"
+          width="200"
+          alt="cover"
+          loading="lazy"
+        />
+        <img
+          class="controlBtn"
+          src="../assets/icons/play.png"
+          width="50"
+          alt="cover"
+          loading="lazy"
+        />
+        <h3>Deep focus</h3>
+        <p>Music1, Music2, Music3, Music4, Music5, ...</p>
+      </div>
+      <div class="card-playlist">
+        <img
+          src="../assets/covers/cover.jpg"
+          width="200"
+          alt="cover"
+          loading="lazy"
+        />
+        <img
+          class="controlBtn"
+          src="../assets/icons/play.png"
+          width="50"
+          alt="cover"
+          loading="lazy"
+        />
+        <h3>Deep focus</h3>
+        <p>Music1, Music2, Music3, Music4, Music5, ...</p>
+      </div>
+      <div class="card-playlist">
+        <img
+          src="../assets/covers/cover.jpg"
+          width="200"
+          alt="cover"
+          loading="lazy"
+        />
+        <img
+          class="controlBtn"
+          src="../assets/icons/play.png"
+          width="50"
+          alt="cover"
+          loading="lazy"
+        />
+        <h3>Deep focus</h3>
+        <p>Music1, Music2, Music3, Music4, Music5, ...</p>
+      </div>
+    </section>
+    <section class="home-playlists">
+      <div class="titlePlaylist"><h1>Focus Playlist</h1></div>
+      <div class="seePlaylist"><h5>SEE ALL</h5></div>
+      <div class="card-playlist">
+        <img
+          src="../assets/covers/cover.jpg"
+          width="200"
+          alt="cover"
+          loading="lazy"
+        />
+        <img
+          class="controlBtn"
           src="../assets/icons/play.png"
           width="50"
           alt="cover"
@@ -418,6 +418,7 @@ export default {};
   padding: 3rem;
   margin-top: 2rem;
   font-weight: 300;
+  margin-bottom: 5rem;
 }
 
 #home-page h3 {

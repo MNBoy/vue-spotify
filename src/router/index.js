@@ -3,6 +3,7 @@ import Home from "../views/TheHome.vue";
 import Search from "../views/TheSearch.vue";
 import Playlist from "../views/ThePlaylist.vue";
 import CreatePlaylist from "../views/CreatePlaylist.vue";
+import PlaylistInfo from "../views/PlaylistInfo.vue";
 import LikedSongs from "../views/LikedSongs.vue";
 
 const routes = [
@@ -40,6 +41,11 @@ const routes = [
     path: "/create-playlist",
     name: "CreatePlaylist",
     component: CreatePlaylist,
+  },
+  {
+    path: "/playlist/:id",
+    name: "PlaylistInfo",
+    component: PlaylistInfo,
   },
   {
     path: "/liked-songs",
