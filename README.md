@@ -1,4 +1,4 @@
-# spotify-vue
+# vue-spotify
 
 ## Project setup
 ```
