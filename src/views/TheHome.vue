@@ -12,7 +12,7 @@
           />
           <p>Deep focus</p>
           <img
-            class="controlBtnLike"
+            class="controlBtn playlistActiveLike"
             src="../assets/icons/play.png"
             width="70"
             alt="cover"
@@ -418,7 +418,6 @@ export default {};
   padding: 3rem;
   margin-top: 2rem;
   font-weight: 300;
-  margin-bottom: 5rem;
 }
 
 #home-page h3 {
