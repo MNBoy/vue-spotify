@@ -1,7 +1,7 @@
 <template>
   <div id="profile-detail" @click="toggleDetail">
     <img src="../../assets/icons/user.png" width="19" alt="user" />
-    <p>Moein</p>
+    <p>MNBoy</p>
     <img
       v-if="!isDetail"
       class="logotest"
