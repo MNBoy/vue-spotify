@@ -10,7 +10,7 @@ npm install
 npm run serve
 ```
 ### See Demo
-See [Spotify Vue](https://spotifyvue.netlify.app/).
+See [Spotify Vue](https://vue-spotify-app.netlify.app/).
 ***
 # Images
 ![Home](https://i.ibb.co/xCJwM8C/Screenshot-2021-08-16-195921.png)
