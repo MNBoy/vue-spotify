@@ -19,6 +19,4 @@ See [Spotify Vue](https://vue-spotify-app.netlify.app/).
 ---
 ![Library](https://i.ibb.co/BCQrf6g/Screenshot-2021-08-16-195957.png)
 ---
-![Library2](https://i.ibb.co/VgvT7C7/Screenshot-2021-08-16-200008.png)
----
 ![Liked Songs](https://i.ibb.co/BN1mkQ0/Screenshot-2021-08-16-200020.png)
